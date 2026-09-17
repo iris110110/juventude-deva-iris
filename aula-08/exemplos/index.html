@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<>, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form id="form-contato">
+     
+
+     <label for="nome">digite seu nome:</label>
+     <br>
+     <input type="text" name="digite seu nome":
+      placeholder="digite seu nome!">
+      <p></p>
+    <label for="email">digite se E-mail:</label>
+     <input type="email" name="digite seu e-mail!"
+     <p></p>
+     <label for="number">digite seu telefone!</label>
+     <br>
+      <input for="number" name="digite seu telefone":
+     placeholder="digite seu telefone!">
+     <p></p>
+     <br>
+     <button type="submit">Enviar</button>
+    </form>
+     <script>
+        const formulario = document.querySelector("#form-contato");
+    
+        formulario.addEventListener("submit",
+        function (event) {
+             event.preventDefault();
+             alert("mensagem enviada com sucesso!");
+        });
+     
+     </script>     
+
+
+      
+
+
+
+</body>
+</html>
