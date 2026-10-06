@@ -1,0 +1,27 @@
+body{
+    background: #f4f7fb;
+    font-family: arial, sans-serif;
+}
+h1 {
+    color: #2563eb;
+}
+
+.box{
+    background: red;
+    width: 200px;
+    height: 300px;
+    padding: 20px;
+    margin:20px;
+    font-size: 18px;
+    text-align: center;
+
+} 
+
+p{color:aqua;
+font-size:50px;    
+}
+.destaque{background: pink;
+height:150px ;
+width:100px;
+}
+#titulo{color: #f4f7fb;}
